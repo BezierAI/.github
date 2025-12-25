@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/BezierAI/.github/main/assets/logo.svg" alt="Bézier Logo" width="120" />
+<img src="https://raw.githubusercontent.com/BezierAI/.github/main/assets/logo.png" alt="Bézier Logo" width="120" />
 
 # Bézier
 
 ### The Designer Control Loop
 
-*Give designers the same trust in AI that developers have with code.*
+_Give designers the same trust in AI that developers have with code._
 
 [![Status](https://img.shields.io/badge/status-MVP%20Complete-brightgreen)](https://github.com/BezierAI/monorepo)
 [![Milestone](https://img.shields.io/badge/milestone-M6%20Distribution-blue)](https://github.com/BezierAI/monorepo)
@@ -47,38 +47,38 @@ Bézier is a desktop application that transforms text prompts into professional 
 
 ## ✨ Key Features
 
-| Feature                       | Description                                                              |
-| ----------------------------- | ------------------------------------------------------------------------ |
-| **🔒 Lock Regions**           | Protect parts of your design while regenerating others                   |
-| **🎯 Selective Regeneration** | Change only what you want without affecting locked areas                 |
-| **📜 Version Timeline**       | Navigate through design iterations with visual history                   |
-| **🔍 Semantic Diff**          | Understand what changed between versions in plain English                |
-| **💬 Comments & Review**      | Comment on versions, request changes, approve designs                    |
-| **🎨 Quality Validation**     | AI validates generated images match the design specification             |
-| **⚡ Local-First**            | Runs on your machine with SQLite — your designs stay private             |
+| Feature                       | Description                                                  |
+| ----------------------------- | ------------------------------------------------------------ |
+| **🔒 Lock Regions**           | Protect parts of your design while regenerating others       |
+| **🎯 Selective Regeneration** | Change only what you want without affecting locked areas     |
+| **📜 Version Timeline**       | Navigate through design iterations with visual history       |
+| **🔍 Semantic Diff**          | Understand what changed between versions in plain English    |
+| **💬 Comments & Review**      | Comment on versions, request changes, approve designs        |
+| **🎨 Quality Validation**     | AI validates generated images match the design specification |
+| **⚡ Local-First**            | Runs on your machine with SQLite — your designs stay private |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer                | Technology                     |
-| -------------------- | ------------------------------ |
-| **Desktop**          | Electron 28                    |
-| **Frontend**         | React 18 + TypeScript          |
-| **State**            | Zustand                        |
-| **Canvas**           | Konva.js / React-Konva         |
-| **UI**               | Radix UI + TailwindCSS         |
-| **Database**         | SQLite (better-sqlite3)        |
-| **AI - Structure**   | Claude API (Anthropic)         |
-| **AI - Images**      | Ideogram API                   |
-| **Image Processing** | sharp                          |
+| Layer                | Technology              |
+| -------------------- | ----------------------- |
+| **Desktop**          | Electron 28             |
+| **Frontend**         | React 18 + TypeScript   |
+| **State**            | Zustand                 |
+| **Canvas**           | Konva.js / React-Konva  |
+| **UI**               | Radix UI + TailwindCSS  |
+| **Database**         | SQLite (better-sqlite3) |
+| **AI - Structure**   | Claude API (Anthropic)  |
+| **AI - Images**      | Ideogram API            |
+| **Image Processing** | sharp                   |
 
 ---
 
 ## 📦 Repository
 
-| Package | Description |
-|---------|-------------|
+| Package                                            | Description               |
+| -------------------------------------------------- | ------------------------- |
 | [`monorepo`](https://github.com/BezierAI/monorepo) | Main application monorepo |
 
 ---
@@ -109,8 +109,8 @@ Bézier is a desktop application that transforms text prompts into professional 
 
 **Built with ☕ and AI**
 
-<img src="https://raw.githubusercontent.com/BezierAI/.github/main/assets/logo.svg" alt="Bézier" width="40" />
+<img src="https://raw.githubusercontent.com/BezierAI/.github/main/assets/logo.png" alt="Bézier" width="40" />
 
-*Lock what you love, regenerate the rest.*
+_Lock what you love, regenerate the rest._
 
 </div>
