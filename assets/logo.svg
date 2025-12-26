@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" fill="none">
+  <!-- Bézier Logo: Infinity curve with outer ellipses and control points -->
+  
+  <!-- Outer ellipse - left -->
+  <ellipse cx="70" cy="80" rx="55" ry="65" stroke="#000" stroke-width="5" fill="none"/>
+  
+  <!-- Outer ellipse - right -->
+  <ellipse cx="170" cy="80" rx="55" ry="65" stroke="#000" stroke-width="5" fill="none"/>
+  
+  <!-- Inner infinity/lemniscate curve -->
+  <path 
+    d="M 70 80 
+       C 70 40, 110 40, 120 80 
+       C 130 120, 170 120, 170 80 
+       C 170 40, 130 40, 120 80 
+       C 110 120, 70 120, 70 80"
+    stroke="#000" 
+    stroke-width="5" 
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <!-- Control point dots (6 points around the figure) -->
+  <circle cx="70" cy="15" r="8" fill="#000"/>   <!-- Top left -->
+  <circle cx="70" cy="145" r="8" fill="#000"/>  <!-- Bottom left -->
+  <circle cx="120" cy="15" r="8" fill="#000"/>  <!-- Top center -->
+  <circle cx="120" cy="145" r="8" fill="#000"/> <!-- Bottom center -->
+  <circle cx="170" cy="15" r="8" fill="#000"/>  <!-- Top right -->
+  <circle cx="170" cy="145" r="8" fill="#000"/> <!-- Bottom right -->
+</svg>
