@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/BezierAI/.github/main/assets/logo.svg" alt="Bézier Logo" width="120" />
+<img src="https://raw.githubusercontent.com/BezierAI/monorepo/main/packages/app/build/icon.png" alt="Bézier Logo" width="120" />
 
 # Bézier
 
@@ -109,7 +109,7 @@ Bézier is a desktop application that transforms text prompts into professional 
 
 **Built with ☕ and AI**
 
-<img src="https://raw.githubusercontent.com/BezierAI/.github/main/assets/logo.svg" alt="Bézier" width="40" />
+<img src="https://raw.githubusercontent.com/BezierAI/monorepo/main/packages/app/build/icon.png" alt="Bézier" width="40" />
 
 _Lock what you love, regenerate the rest._
 
