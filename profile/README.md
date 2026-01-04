@@ -8,8 +8,8 @@
 
 _Give designers the same trust in AI that developers have with code._
 
-[![Status](https://img.shields.io/badge/status-MVP%20Complete-brightgreen)](https://github.com/BezierAI/monorepo)
-[![Milestone](https://img.shields.io/badge/milestone-M6%20Distribution-blue)](https://github.com/BezierAI/monorepo)
+[![Status](https://img.shields.io/badge/status-M7%20Complete-brightgreen)](https://github.com/BezierAI/monorepo)
+[![Milestone](https://img.shields.io/badge/milestone-M8%20Planning-blue)](https://github.com/BezierAI/monorepo)
 [![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://github.com/BezierAI/monorepo)
 
 [![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)](https://www.electronjs.org/)
@@ -51,8 +51,10 @@ Bézier is a desktop application that transforms text prompts into professional 
 | ----------------------------- | ------------------------------------------------------------ |
 | **🔒 Lock Regions**           | Protect parts of your design while regenerating others       |
 | **🎯 Selective Regeneration** | Change only what you want without affecting locked areas     |
+| **📐 Polygon Masks**          | Draw precise shapes for pixel-accurate inpainting            |
 | **📜 Version Timeline**       | Navigate through design iterations with visual history       |
 | **🔍 Semantic Diff**          | Understand what changed between versions in plain English    |
+| **👁️ Mask Preview**           | See exactly what will be edited before regenerating          |
 | **💬 Comments & Review**      | Comment on versions, request changes, approve designs        |
 | **🎨 Quality Validation**     | AI validates generated images match the design specification |
 | **⚡ Local-First**            | Runs on your machine with SQLite — your designs stay private |
@@ -72,6 +74,7 @@ Bézier is a desktop application that transforms text prompts into professional 
 | **AI - Structure**   | Claude API (Anthropic)  |
 | **AI - Images**      | Ideogram API            |
 | **Image Processing** | sharp                   |
+| **Auto-Updates**     | electron-updater        |
 
 ---
 
@@ -85,7 +88,7 @@ Bézier is a desktop application that transforms text prompts into professional 
 
 ## 🗺️ Roadmap
 
-### MVP Complete ✅
+### MVP + Distribution Complete ✅
 
 - [x] **M0**: Foundation (Claude + Ideogram + Database + Storage)
 - [x] **M1**: Core Generation Loop (UI + Generation Flow)
@@ -93,15 +96,21 @@ Bézier is a desktop application that transforms text prompts into professional 
 - [x] **M3**: Version Timeline & Semantic Diff
 - [x] **M4**: Review & Collaboration
 - [x] **M5**: Generation Quality & Validation
+- [x] **M6**: Distribution & Packaging (code signing, notarization, auto-updates)
 
-### In Progress 🔄
+### Advanced Editing Complete ✅
 
-- [ ] **M6**: Distribution & Packaging (code signing, notarization, auto-updates)
+- [x] **M7**: Advanced Editing & Precision
+  - Polygon region editor (draw/edit precise shapes)
+  - Polygon mask generation (pixel-accurate inpainting)
+  - Manual region adjustment (drag handles)
+  - Inpainting preview (see mask before regenerating)
+  - Mask inversion (protect other regions for background edits)
 
-### Future 🔮
+### Planning 📋
 
-- [ ] **M7**: Advanced Features (polygon masks, undo/redo, templates)
 - [ ] **M8**: Collaboration & Sharing (cloud sync, team features)
+- [ ] **M9**: Design Tool Integration (Figma export, SVG export)
 
 ---
 
